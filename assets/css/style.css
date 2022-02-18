@@ -84,11 +84,14 @@ img{
     height: 100px;
     width: auto;
     padding-top: 20px; 
+    display: flex;
+    justify-content: space-between;
 }
 .top{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: 100px;
 }
 
 .top li{
@@ -99,11 +102,12 @@ img{
     color: white;
     font-size: 15px;
     text-decoration: none;
+  
 }
 
 h1{
     color: red;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 100;
     background-color: black;
     margin: 20px 0 0 50px;
@@ -111,6 +115,8 @@ h1{
 
 #look{
     color: white;
+    font-size: 30px;
+
 }
 
 .icon{
@@ -132,7 +138,7 @@ footer p{
     background-color: black;
     color: gray;
     font-size: 15px;
-    padding-left: 200px;
+    padding-left: 30px;
     padding-top: 10px;
 }
 .footer2{
@@ -168,4 +174,11 @@ display: flex;
 }
 .btn:hover{
     color: white;
+}
+#option{
+display: none;
+background-color: rgba(0, 0, 0, 0.523); 
+width: 150px;
+height: 30px;  
+color: white; 
 }

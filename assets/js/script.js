@@ -10,7 +10,9 @@ $(function(){
         $('.btn').text('809-989');
         })
     
-    
+    $('#look').on('click',function(){
+        $('#option').slideToggle();
+    })
   
   
   
