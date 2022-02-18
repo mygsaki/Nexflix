@@ -10,6 +10,7 @@ section{
 h3{
     color: white;
     font-size: 20px;
+    margin: 50px 0 10px;
 }
 
 .grinch{
@@ -18,12 +19,26 @@ h3{
 
 .movie-img{
     display: flex;
+    overflow: auto;
     justify-content: space-between;
     align-items: center;
 }
 
+/* .movie-img img:hover{
+    transform:scale(1.5,1.5);
+} */
+
+/* .movie-img div{
+    position: relative;
+}
+
+.movie-img a{
+    position: absolute;
+} */
+
 img{
     height: 190px;
+    margin-right: 5px;
 }
 
 .img-big{
