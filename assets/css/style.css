@@ -23,6 +23,12 @@ h3{
     justify-content: space-between;
     align-items: center;
 }
+.movie-img::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+    display:none;
+}
+.world-movie::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+    display:none;
+}
 
 /* .movie-img img:hover{
     transform:scale(1.5,1.5);
@@ -86,7 +92,7 @@ img{
 }
 
 .top li{
-    margin-left: 20px;
+    margin:20px 0 0 20px;
 }
 
 .header-left ul li a {
@@ -97,23 +103,22 @@ img{
 
 h1{
     color: red;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 100;
     background-color: black;
+    margin: 20px 0 0 50px;
 }
 
 #look{
     color: white;
-}
-#look dd{
-    color: white;
-    text-decoration: none;
 }
 
 .icon{
     background-color: black;
     width: auto;
     height: 50px;
+    margin: 20px 0 20px 20px;
+    
 }
 
 .footer ul a{
@@ -140,21 +145,6 @@ display: flex;
     display: flex;
     flex-direction: column;
 }
-.link2{
-    margin: 0 10px 0 10px;
-    display: flex;
-    flex-direction: column;
-}
-.link3{
-    margin: 0 10px 0 10px;
-    display: flex;
-    flex-direction: column;
-}
-.link4{
-    margin: 0 10px 0 10px;
-    display: flex;
-    flex-direction: column;
-}
 
 .boder{
     background-color: black;
@@ -164,7 +154,7 @@ display: flex;
 
 .footer2 ul a{
     color: gray;
-    font-size: 13px;
+    font-size: 20px;
     padding: 5px 30px 5px 30px;
     text-decoration: none;
 }
