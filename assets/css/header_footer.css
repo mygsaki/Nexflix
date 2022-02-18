@@ -1,0 +1,69 @@
+.header-left{
+    background-color: black;
+    height: 100px;
+    width: auto;
+    padding-top: 20px; 
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top li{
+    margin-left: 20px;
+}
+
+.header-left ul li a {
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+    background-color: black;
+}
+
+#look{
+    color: white;
+    margin-left: 200px;
+}
+.icon{
+    background-color: black;
+    width: auto;
+    height: 50px;
+}
+
+.footer ul a{
+color: white;
+font-size: 25px;
+margin-left: 20px;
+}
+
+footer p{
+    background-color: black;
+    color: gray;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.footer2{
+    background-color: black;
+   
+}
+
+.boder{
+    background-color: black;
+    color: gray;
+    border: 1px solid gray;
+    padding: 0 100px 0 200px;
+}
+
+.footer2 ul a{
+    color: gray;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
