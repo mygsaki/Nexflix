@@ -1,0 +1,181 @@
+body{
+    background-color: black;
+    width: 100%;
+}
+
+section{
+    margin: 0 60px;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+    margin: 50px 0 10px;
+}
+
+.grinch{
+    background-color: rgb(188, 248, 188);
+}
+
+.movie-img{
+    display: flex;
+    overflow: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .movie-img img:hover{
+    transform:scale(1.5,1.5);
+} */
+
+/* .movie-img div{
+    position: relative;
+}
+
+.movie-img a{
+    position: absolute;
+} */
+
+img{
+    height: 190px;
+    margin-right: 5px;
+}
+
+.img-big{
+    height: 300px;
+    cursor: pointer;
+
+}
+
+.world-movie{
+    display: flex;
+    overflow: auto;
+}
+
+.world-movie li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+.world-movie span{
+    color: rgb(197, 190, 190);
+    font-size: 200px;
+    height: 190px;
+    font-family: 'Londrina Outline', cursive;
+
+    
+}
+
+
+/* html{
+    background-color: black;
+} */
+.header-left{
+    background-color: black;
+    height: 100px;
+    width: auto;
+    padding-top: 20px; 
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top li{
+    margin-left: 20px;
+}
+
+.header-left ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+    background-color: black;
+}
+
+#look{
+    color: white;
+}
+#look dd{
+    color: white;
+    text-decoration: none;
+}
+
+.icon{
+    background-color: black;
+    width: auto;
+    height: 50px;
+}
+
+.footer ul a{
+color: white;
+font-size: 25px;
+margin-left: 20px;
+
+}
+
+footer p{
+    background-color: black;
+    color: gray;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.footer2{
+    background-color: black;
+display: flex;
+}
+
+.link{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.link2{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.link3{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.link4{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boder{
+    background-color: black;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.footer2 ul a{
+    color: gray;
+    font-size: 13px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: black;
+    color: gray;
+    border: 1px solid gray;
+    margin-left: 40px;
+    padding: 5px;
+}
+.btn:hover{
+    color: white;
+}
