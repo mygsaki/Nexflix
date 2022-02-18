@@ -28,11 +28,13 @@ img{
 
 .img-big{
     height: 300px;
+    cursor: pointer;
 
 }
 
 .world-movie{
     display: flex;
+    overflow: auto;
 }
 
 .world-movie li{
