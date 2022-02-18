@@ -4,5 +4,10 @@ $(function(){
   })  
   $('img').on('mouseleave',function(){
       $(this).removeClass('img-big');
-  })  
+  })
+  
+  
+
+
+
 })
