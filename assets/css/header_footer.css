@@ -1,3 +1,6 @@
+html{
+    background-color: black;
+}
 .header-left{
     background-color: black;
     height: 100px;
@@ -17,6 +20,7 @@
 .header-left ul li a {
     color: white;
     font-size: 15px;
+    text-decoration: none;
 }
 
 h1{
@@ -28,8 +32,12 @@ h1{
 
 #look{
     color: white;
-    margin-left: 200px;
 }
+#look dd{
+    color: white;
+    text-decoration: none;
+}
+
 .icon{
     background-color: black;
     width: auto;
@@ -40,6 +48,7 @@ h1{
 color: white;
 font-size: 25px;
 margin-left: 20px;
+
 }
 
 footer p{
@@ -51,19 +60,50 @@ footer p{
 }
 .footer2{
     background-color: black;
-   
+display: flex;
+}
+
+.link{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.link2{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.link3{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.link4{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .boder{
     background-color: black;
     color: gray;
     border: 1px solid gray;
-    padding: 0 100px 0 200px;
 }
 
 .footer2 ul a{
     color: gray;
-    font-size: 15px;
-    padding-left: 30px;
+    font-size: 13px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
 }
 
+.btn{
+    background-color: black;
+    color: gray;
+    border: 1px solid gray;
+    margin-left: 40px;
+    padding: 5px;
+}
+.btn:hover{
+    color: white;
+}
