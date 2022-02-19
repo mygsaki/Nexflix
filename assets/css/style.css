@@ -79,13 +79,17 @@ img{
 /* html{
     background-color: black;
 } */
-.header-left{
+.header{
     background-color: black;
-    height: 100px;
-    width: auto;
-    padding-top: 20px; 
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 .top{
     display: flex;
@@ -98,24 +102,27 @@ img{
     margin:20px 0 0 20px;
 }
 
-.header-left ul li a {
+.header ul li a {
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: none;
+    font-weight: 100;
   
 }
 
 h1{
     color: red;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 100;
     background-color: black;
     margin: 20px 0 0 50px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #look{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    padding-right: 10px;
 
 }
 
