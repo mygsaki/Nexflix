@@ -20,7 +20,15 @@ $(function(){
         // autoplaySpeed:5000,
         dots: true,
         slidesToShow: 4,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 780, //399px以下のサイズに適用
+              settings: {
+              slidesToShow: 2,
+              },
+            },
+          ],
       });
       
       $('.slider2').slick({
@@ -28,7 +36,15 @@ $(function(){
         // autoplaySpeed:5000,
         dots: true,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 780, //399px以下のサイズに適用
+              settings: {
+              slidesToShow: 1,
+              },
+            },
+          ],
       });
     
     //   $('img').on('mouseover', function () {
