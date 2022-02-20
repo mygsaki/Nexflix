@@ -80,9 +80,9 @@ h3{
     background-color: black;
     height: 80px;
     width: 100vw;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
