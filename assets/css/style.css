@@ -10,7 +10,7 @@ body{
 h3{
     color: white;
     font-size: 20px;
-    margin: 50px 0 10px 50px;
+    margin: 0 0 0 60px;
 }
 
 
@@ -206,10 +206,24 @@ color: white;
     cursor: pointer;
 }
 
-/* .slider img:hover{
-    transform:scale(1.5,1.5);
+.slider1 img,
+.slider2 img{
+    height: 200px;
+    transition: all .5s ease;
+    /* width: auto; */
+    /* padding-right: 5px; */
+}
+
+.slider1 img:hover,
+.slider2 img:hover{
+    transform:scale(1.2,1.2);
     
-} */
+}
+
+.slick-track{
+    padding: 20px 0;
+}
+
 /*slick setting*/
 .slick-prev:before,
 .slick-next:before {
@@ -226,6 +240,10 @@ button:before{
     display: flex;
 }
 
+
+
+
+
 .h3nozomi{
-    margin-top: 100px;
+    margin-top: 30px;
 }

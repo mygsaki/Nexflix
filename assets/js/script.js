@@ -31,13 +31,13 @@ $(function(){
         slidesToScroll: 1
       });
     
-      $('img').on('mouseover', function () {
-        $(this).css('opacity', 0.7);
-      });
+    //   $('img').on('mouseover', function () {
+    //     $(this).css('opacity', 0.7);
+    //   });
     
-      $('img').on('mouseleave', function () {
-        $(this).css('opacity', 1);
-      });
+    //   $('img').on('mouseleave', function () {
+    //     $(this).css('opacity', 1);
+    //   });
   
   
   
