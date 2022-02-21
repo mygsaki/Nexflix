@@ -265,4 +265,35 @@ width: 100vh;
     .header ul i{
     display: none;
     }
+
+    html{
+        overflow-x: hidden;
+    }
+
+    .slider1 img,
+    .slider2 img{
+        height: 110px;  
+    }
+
+    .world-movie span{  
+        font-size: 100px;
+    }
+
+    h3{
+        
+        font-size: 20px;
+        margin: 0 0 0 20px;
+    }
+
+    .slick-slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .world-movie span{
+        height: 100px;
+    }
+
+
 }
