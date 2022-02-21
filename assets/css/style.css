@@ -244,7 +244,25 @@ button:before{
 
 
 
-
 .h3nozomi{
     margin-top: 110px;
+}
+
+@media screen and (max-width:780px){
+    .header{
+        width: auto;
+    }
+    .footer{
+width: 100vh;
+
+    }
+    .footer2{
+        width: 100vh;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header ul i{
+    display: none;
+    }
 }
