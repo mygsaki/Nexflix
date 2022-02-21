@@ -275,11 +275,25 @@ width: 100vh;
         height: 110px;  
     }
 
-    .world-movie span{
-        
+    .world-movie span{  
         font-size: 100px;
-        
-    
-        
     }
+
+    h3{
+        
+        font-size: 20px;
+        margin: 0 0 0 20px;
+    }
+
+    .slick-slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .world-movie span{
+        height: 100px;
+    }
+
+
 }
