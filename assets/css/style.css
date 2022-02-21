@@ -199,13 +199,13 @@ color: white;
     width: 90%;
 }
 
-.slider1 img{
+/* .slider1 img{
     height: 200px;
     /* width: auto; */
     /* padding-right: 5px; */
     /* background: white; */
-    cursor: pointer;
-}
+    /* cursor: pointer;
+} */ 
 
 .slider1 img,
 .slider2 img{
