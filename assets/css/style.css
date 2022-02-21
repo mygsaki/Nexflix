@@ -250,7 +250,7 @@ button:before{
 
 @media screen and (max-width:780px){
     .header{
-        width: auto;
+        width: 100%;
     }
     .footer{
 width: 100vh;
